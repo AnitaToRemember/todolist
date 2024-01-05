@@ -57,10 +57,6 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-
-Feel free to customize the README based on additional features, project structure, or any specific information you'd like to include.
-
 
 
 
