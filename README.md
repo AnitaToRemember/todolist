@@ -27,18 +27,18 @@ This ToDo app allows users to add, delete, and mark tasks as complete. Users can
 
 2. Change into the project directory:
 
-  ```bash
-  cd todo-app
+    ```bash
+    cd todo-app
 
 3. Install dependencies:
 
-  ```bash
-  npm install
+    ```bash
+    npm install
 
 4. Start the development server:
 
-  ```bash
-npm start
+    ```bash
+    npm start
 
 5. Open your browser and visit http://localhost:3000 to view the app.
 
