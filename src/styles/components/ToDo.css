@@ -1,0 +1,35 @@
+/* Todo item styling */
+.Todo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: #38419D;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+/* Style for the trash icon */
+.fa-trash {
+    margin-left: 0.75rem;
+}
+
+/* Style for incomplete tasks */
+.incompleted {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style for completed tasks */
+.completed {
+    color: #52D3D8;
+    text-decoration: line-through; 
+    cursor: pointer;
+}
+
+/* Styles for the edit and delete icons */
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import "../styles/components/Navbar.css";
+import Logo from "./Logo";
+
+function Navbar() {
+  const [active, setActive] = useState(false);
+
+  const link = [
+    { page: "Home", href: "/" },
+    { page: "About", href: "/about" },
+    { page: "Portafolio", href: "/portafolio" },
+    { page: "Services", href: "/services" },
+    { page: "Contact", href: "/contact" },
+  ];
+
+  const handleNavLinkClick = () => {
+    setActive(false); // Close the hamburger menu when a link is clicked
+  };
+
+  return (
+    <header className="header-bar">
+      <Logo />
+
+      <nav className={`NavbarWrapper ${active ? "active" : ""}`}>
+        <div className="hamburger-menu">
+          <FontAwesomeIcon
+            className="StyledFontAwesomeIcon"
+            icon={faBars}
+            onClick={() => setActive(!active)}
+          />
+        </div>
+
+        <div className={`nav-links ${active ? "active" : ""}`}>
+          <ul className="NavLinkWrapper">
+            {link.map((link) => (
+              <li key={link.page}>
+                <NavLink
+                  to={link.href}
+                  className={`StyledNavLink ${active ? "active" : ""}`}
+                  onClick={handleNavLinkClick}
+                >
+                  {link.page}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+export default Navbar;

@@ -1,0 +1,51 @@
+
+.social-media{
+    margin-top: 4rem;
+}
+/* Profile List */
+.profile-list {
+    padding: 0;
+    list-style: none;
+}
+
+/* Profile */
+.profile {
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+/* Profile Link */
+.profile-link {
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.profile-link:hover {
+    color: var(--secondary-color);
+}
+
+/* Profile Button */
+.profile-button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width: 300px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--background-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.profile-button:hover {
+    border-color: var(--secondary-color);
+}
+
+.profile-button:focus,
+.profile-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}

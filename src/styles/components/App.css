@@ -1,0 +1,38 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Global styles for all elements in the document */
+* {
+	font-family: 'Poppins', sans-serif; 
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+	box-sizing: border-box; 
+}
+
+/* Body styling */
+body {
+	background: #52D3D8; 
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	margin: 0;
+	padding: 0; 
+	border: 0; 
+}
+
+/* App styling */
+.App {
+	text-align: center; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+}
+
+/* Heading 1 styling */
+h1 {
+	color: #fff;
+	margin-bottom: 0.5rem;
+	font-size: 1.75rem;
+}

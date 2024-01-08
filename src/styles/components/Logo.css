@@ -1,0 +1,23 @@
+/* Header styling */
+header.header-bar {
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem 3rem;
+    background-color: #52D3D8;
+}
+
+/* Logo styling */
+.Logo {
+    position: fixed;
+    top: 0.5rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 1001; 
+}
+
+.Logo img {
+    width: 100px; 
+    margin-right: 10px; 
+}
+

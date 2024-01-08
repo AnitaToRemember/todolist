@@ -1,0 +1,8 @@
+/* Footer styling */
+.main-footer {
+    color: white; 
+    background-color: #38419D; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}

@@ -1,0 +1,35 @@
+/* ToDoForm styling */
+.ToDoForm {
+    width: 100%; 
+    margin-bottom: 1rem;
+    align-items: center; 
+}
+
+/* Style for the todo input */
+.todo-input {
+    outline: none;
+    background: #FBF9F1;
+    border: 1px solid #38419D;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%; 
+    color: #38419D;
+    border-radius: 20px;
+}
+
+/* Placeholder styling for the todo input */
+.todo-input::placeholder {
+    color: #38419D;
+}
+
+/* Style for the todo button */
+.todo-btn {
+    background: #38419D;
+    color: #fff;
+    border: none;
+    margin: 0 0 1rem 1rem;
+    padding: 0.55rem;
+    cursor: pointer;
+    border-radius: 20px;
+}

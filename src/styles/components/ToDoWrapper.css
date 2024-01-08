@@ -1,0 +1,15 @@
+/* ToDoWrapper styling */
+.ToDoWrapper {
+    background: #3887BE;
+    margin-top: 5rem; 
+    padding: 2rem;
+    border-radius: 20px;
+    width: 50vw; 
+}
+
+/* Media query for small screens (max-width: 800px) */
+@media (max-width: 800px) {
+    .ToDoWrapper {
+        margin-top: 3rem; 
+    }
+}
