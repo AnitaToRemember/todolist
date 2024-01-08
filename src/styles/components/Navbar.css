@@ -3,13 +3,14 @@ nav.NavbarWrapper {
     display: flex;
     justify-content: flex-end; 
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem 3rem ;
     position: fixed;
-    top: 0.7rem;
+    top: 2rem;
     left: 0;
     right: 0;
     transition: top 0.3s; 
     width: 100%;
+    background-color: #52D3D8;
 }
 
 /* Media query for small screens (max-width: 800px) */

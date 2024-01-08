@@ -1,35 +1,49 @@
 /* About Me Container */
 .about-me-container {
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
-padding: 20px;
-max-width: 100%;
-overflow: hidden;
+padding: 4rem;
+margin-top: 2rem;
 }
 
 /* Picture Container */
 .picture-container {
-flex: 1;
-margin-right: 20px;
-max-width: 50%;
+flex-shrink: 0;
+margin-right: 4rem;
 }
 
 /* My Picture */
 .my-picture {
-width: 100%;
-max-width: 400px; /* Adjust the maximum width as needed */
-border-radius: 8px;
+width: 300px;
+border-radius: 10%;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 height: auto;
+}
+
+/* Social Icons Container */
+.social-icons {
+display: flex;
+gap: 10px;
+margin-top: 10px;
+justify-content: center;
+}
+
+/* Social Icons (Font Awesome) */
+.social-icons a {
+color: #38419D;
+font-size: 24px;
+transition: color 0.3s;
+}
+
+.social-icons a:hover {
+color: #666;
 }
 
 /* Text Container */
 .text-container {
 flex: 1;
 max-width: 50%;
-padding: 0 2rem; /* Add padding for spacing between text and image */
-box-sizing: border-box;
 }
 
 /* Additional styling for text, headings, etc. */
@@ -40,5 +54,5 @@ font-size: 24px;
 
 .text-container p {
 color: #666;
-font-size: 16px;
+font-size: 14px;
 }
