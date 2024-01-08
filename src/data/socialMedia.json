@@ -1,23 +1,27 @@
 [   {   "id": 1,
         "name": "Instagram",
-        "url": "https://www.instagram.com/thisis_anab/"
+        "url": "https://www.instagram.com/thisis_anab/",
+        "img": "🖼️"
     },
 
     {
         "id": 2,
         "name": "GitHub",
-        "url": "https://github.com/AnitaToRemember"
+        "url": "https://github.com/AnitaToRemember",
+        "img": "💻"
     },
 
     {
         "id": 3,
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/anabest/"
+        "url": "https://www.linkedin.com/in/anabest/",
+        "img": "💼"
     },
 
     {
         "id": 4,
-        "name": "Email me",
-        "url":"mailto:best.anac@gmail.com"
+        "name": "CV",
+        "url": "https://drive.google.com/file/d/1uNtQ4oknahvLZPAmi54R6YYbJ9keRXhp/view?usp=drive_link",
+        "img": "📄"
     }
 ]

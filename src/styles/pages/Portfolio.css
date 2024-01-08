@@ -34,15 +34,14 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: var(--background-color);
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    background-color: #38419D;
+    color: #fff;
     cursor: pointer;
     transition: border-color 0.25s;
 }
 
 .profile-button:hover {
-    border-color: var(--secondary-color);
+    color: #52D3D8;
 }
 
 .profile-button:focus,

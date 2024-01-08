@@ -1,7 +1,7 @@
 import socialMedia from '../data/socialMedia.json'
-import "../styles/pages/Portafolio.css"
+import "../styles/pages/Portfolio.css"
 
-function Portafolio() {
+function Portfolio() {
 		
 	return (
 		<section className="social-media">
@@ -11,6 +11,7 @@ function Portafolio() {
 						<button className='profile-button'>
 							<a href={profile.url} target='_blank' rel='noreferrer' className='profile-link'>
 								{profile.name}
+								{profile.img}
 							</a>
 						</button>
 					</li>
@@ -19,4 +20,4 @@ function Portafolio() {
 		</section>
 	);
 }
-export default Portafolio
+export default Portfolio

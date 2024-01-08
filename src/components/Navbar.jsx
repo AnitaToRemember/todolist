@@ -11,7 +11,7 @@ function Navbar() {
   const link = [
     { page: "Home", href: "/" },
     { page: "About", href: "/about" },
-    { page: "Portafolio", href: "/portafolio" },
+    { page: "Portfolio", href: "/portfolio" },
     { page: "Services", href: "/services" },
     { page: "Contact", href: "/contact" },
   ];
