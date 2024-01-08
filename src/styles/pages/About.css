@@ -1,0 +1,44 @@
+/* About Me Container */
+.about-me-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+max-width: 100%;
+overflow: hidden;
+}
+
+/* Picture Container */
+.picture-container {
+flex: 1;
+margin-right: 20px;
+max-width: 50%;
+}
+
+/* My Picture */
+.my-picture {
+width: 100%;
+max-width: 400px; /* Adjust the maximum width as needed */
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+height: auto;
+}
+
+/* Text Container */
+.text-container {
+flex: 1;
+max-width: 50%;
+padding: 0 2rem; /* Add padding for spacing between text and image */
+box-sizing: border-box;
+}
+
+/* Additional styling for text, headings, etc. */
+.text-container h2 {
+color: #38419D;
+font-size: 24px;
+}
+
+.text-container p {
+color: #666;
+font-size: 16px;
+}
