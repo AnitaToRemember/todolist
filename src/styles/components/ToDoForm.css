@@ -5,6 +5,14 @@
     align-items: center; 
 }
 
+.to-do-title{
+    word-wrap: break-word; 
+    max-width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 /* Style for the todo input */
 .todo-input {
     outline: none;
@@ -28,7 +36,7 @@
     background: #38419D;
     color: #fff;
     border: none;
-    margin: 0 0 1rem 1rem;
+    margin: 0 1rem 0 1rem;
     padding: 0.55rem;
     cursor: pointer;
     border-radius: 20px;
