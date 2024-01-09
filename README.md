@@ -1,6 +1,15 @@
-# ToDo App
+# To Do List App
 
-A basic ToDo application built with React.
+A basic To Do List application built with React.
+
+## Table of Contents
+
+- [Overview](#Overview)
+- [Features](#Features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License ](#license)
 
 ## Overview
 
@@ -15,8 +24,12 @@ This ToDo app allows users to add, delete, and mark tasks as complete. Users can
 
 ## Technologies Used
 
-- React
-- UUID for generating unique IDs
+- React 
+- React Router 
+- FontAwesome
+- Formspree
+- react-floating-whatsapp
+- uuid - UUID generator
 
 ## Getting Started
 
