@@ -1,10 +1,10 @@
-import ToDoWrapper from "../components/toDoWrapper"
+import ToDoWrap from "../components/ToDoWrap"
 
 function Home() {
     
   return (
   <main> 
-    <ToDoWrapper />
+    <ToDoWrap />
   </main>
   )
 };

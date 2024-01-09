@@ -6,7 +6,7 @@ import EditToDoForm from "./EditToDoForm";
 uuidv4();
 import "../styles/components/ToDoWrapper.css"
 
-function ToDoWrapper() {
+function ToDoWrap() {
     // State to manage the list of todos
     const [todos, setTodos] = useState([]);
 
@@ -58,4 +58,4 @@ function ToDoWrapper() {
     );
 }
 
-export default ToDoWrapper;
+export default ToDoWrap;
