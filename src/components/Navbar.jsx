@@ -21,9 +21,8 @@ function Navbar() {
   };
 
   return (
-    <header className="header-bar">
+    <section className="header-bar">
       <Logo />
-
       <nav className={`NavbarWrapper ${active ? "active" : ""}`}>
         <div className="hamburger-menu">
           <FontAwesomeIcon
@@ -49,7 +48,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-    </header>
+    </section>
   );
 }
 

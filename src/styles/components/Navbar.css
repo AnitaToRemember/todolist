@@ -3,13 +3,13 @@ nav.NavbarWrapper {
     display: flex;
     justify-content: flex-end; 
     align-items: center;
-    padding: 1rem 3rem ;
+    padding: 2rem 3rem ;
     position: fixed;
-    top: 2rem;
+    top: 0; 
     left: 0;
     right: 0;
     transition: top 0.3s; 
-    width: 100%;
+    width: 100vw;
     background-color: #52D3D8;
 }
 
@@ -39,8 +39,6 @@ nav.NavbarWrapper.active {
     z-index: 1000; 
     transition: top 0.3s;
 }
-
-/* NavLinkWrapper */
 
 /* Media query for small screens (max-width: 800px) */
 @media (max-width: 800px) {
