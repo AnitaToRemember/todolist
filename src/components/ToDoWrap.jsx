@@ -38,7 +38,7 @@ function ToDoWrap() {
 
     return (
         <div className="ToDoWrapper">
-            <h1>Let's get organized!</h1>
+            <h1 className="to-do-title">Let's get organized!</h1>
             <ToDoForm addToDo={addToDo} />
             {todos.map((todo, index) => (
                 todo.isEditing ? (
