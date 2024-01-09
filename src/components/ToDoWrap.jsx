@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';  
-import ToDoForm from "./toDoForm";
 import ToDo from "./ToDo";
 import EditToDoForm from "./EditToDoForm";
 uuidv4();
 import "../styles/components/ToDoWrapper.css"
+import ToDoForm from "./ToDoForm";
 
 function ToDoWrap() {
     // State to manage the list of todos
@@ -21,7 +21,6 @@ function ToDoWrap() {
         setTodos(todos.map(todo => todo.id === id ?
             { ...todo, completed: !todo.completed } : todo));
     };
-
     // Function to delete a todo from the list
     const deleteToDo = id => {
         setTodos(todos.filter(todo => todo.id !== id));
