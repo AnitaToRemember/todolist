@@ -10,7 +10,7 @@ function Navbar() {
 
   const link = [
     { page: "Home", href: "/" },
-    { page: "About", href: "/about" },
+    { page: "About Me", href: "/about" },
     { page: "Portfolio", href: "/portfolio" },
     { page: "Services", href: "/services" },
     { page: "Contact", href: "/contact" },
