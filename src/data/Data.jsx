@@ -21,6 +21,7 @@ export const featured = [
 },
 {
     cover: "https://cdni.iconscout.com/illustration/premium/thumb/team-discussion-on-data-analysis-5685807-4752466.png",
+    name: "Analytics",
     description: "Make informed decisions with our robust analytics services. We provide detailed insights into the performance of your social media channels, helping you understand what works and where there's room for improvement. Data-driven strategies ensure that your social media efforts align with your business goals.",
 },
 ]
