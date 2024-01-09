@@ -1,6 +1,6 @@
 // About.jsx
 import React from "react";
-import myPicture from "../assets/ana.jpeg";
+import myPicture from "../assets/anaprofile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "../styles/pages/About.css";

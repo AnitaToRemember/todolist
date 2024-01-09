@@ -3,7 +3,7 @@
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 1rem;
+margin-right: 1rem;
 }
 
 /* Picture Container */
@@ -14,10 +14,11 @@ margin-right: 4rem;
 
 /* My Picture */
 .my-picture {
-width: 300px;
-border-radius: 10%;
+width: 200px;
+border-radius: 50%;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 height: auto;
+align-items: center;
 }
 
 /* Social Icons Container */
@@ -62,4 +63,23 @@ font-size: 14px;
 
 .hashtags{
     color: #38419D;
+}
+/* Media Query for screens smaller than 800px */
+@media (max-width: 800px) {
+    .about-me-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .picture-container {
+        margin-right: 0; 
+    }
+
+    .Todo p {
+        margin-left: 3rem;
+    }
+
+    .hashtags {
+        margin-top: 0; 
+    }
 }
