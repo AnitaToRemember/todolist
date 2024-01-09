@@ -1,6 +1,6 @@
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import '../styles/pages/Contact.css';
-import ContactForm from '../components/ContactForm';
+import { FloatingWhatsApp } from "react-floating-whatsapp"
+import "../styles/pages/Contact.css";
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
     return (

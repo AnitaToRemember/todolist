@@ -36,7 +36,7 @@ transition: color 0.3s;
 }
 
 .social-icons a:hover {
-color: #666;
+color: #fff;
 }
 
 /* Text Container */
@@ -52,10 +52,14 @@ font-size: 24px;
 }
 
 .text-container p {
-color: #666;
+color: #38419D;
 font-size: 14px;
 }
 
 .message-form{
     color: #fff;
+}
+
+.hashtags{
+    color: #38419D;
 }

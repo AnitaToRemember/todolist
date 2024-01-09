@@ -1,9 +1,9 @@
 /* Importing the Poppins font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* Global styles for all elements in the document */
 * {
-	font-family: 'Poppins', sans-serif; 
+	font-family: "Poppins", sans-serif; 
 	margin: 0; 
 	padding: 0; 
 	border: 0;

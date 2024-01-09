@@ -1,8 +1,14 @@
-function Services() {
-    
-  return (
-  <div>Services</div>
-  )
-};
+import FeaturedCard from "../components/FeaturedCard";
+import "../styles/pages/Services.css";
 
-export default Services
+function Services() {
+  return (
+    <section className="services mb">
+      <div className="featured container">
+        <FeaturedCard />
+      </div>
+    </section>
+  );
+}
+
+export default Services;

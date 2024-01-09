@@ -1,0 +1,20 @@
+.featured-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem;
+    gap: 2rem;
+}
+.featured .card {
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    background-color: #38409d97;
+    color: #fff;
+}
+.featured img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}

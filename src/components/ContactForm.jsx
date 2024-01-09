@@ -1,10 +1,10 @@
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
 const [state, handleSubmit] = useForm("xjvnvnpw");
 if (state.succeeded) {
     
-    return <p className='message-form'>Thanks for your message, I'll reply as soon as possible. Have a nice day ${`:)`} !</p>;
+    return <p className="message-form">Thanks for your message, I"ll reply as soon as possible. Have a nice day ${`:)`} !</p>;
     }
 
     return (
@@ -31,7 +31,7 @@ if (state.succeeded) {
             id="email" 
             name="email" 
             className="form-input" 
-            placeholder='yourname@domain.com' 
+            placeholder="yourname@domain.com" 
             required
             />
             <ValidationError 
@@ -49,7 +49,7 @@ if (state.succeeded) {
             id="phone" 
             name="phone" 
             className="form-input" 
-            placeholder='+1234567890'
+            placeholder="+1234567890"
             required />
             <label 
             htmlFor="message" 
@@ -60,7 +60,7 @@ if (state.succeeded) {
             id="message"
             name="message"
             className="form-input" 
-            placeholder='Leave your message :)' 
+            placeholder="Leave your message :)" 
             required 
             />
             <ValidationError 

@@ -5,8 +5,8 @@ import "../styles/components/ToDo.css"
 function ToDo({ task, toggleComplete, deleteToDo, editToDo }) {
     return (
         <section className="Todo">
-            {/* Paragraph for displaying the task, with a conditional 'completed' class */}
-            <p onClick={() => toggleComplete(task.id)} className={`${task.completed ? 'completed' : ""}`}>
+            {/* Paragraph for displaying the task, with a conditional "completed" class */}
+            <p onClick={() => toggleComplete(task.id)} className={`${task.completed ? "completed" : ""}`}>
                 {task.task}
             </p>
             <span>
