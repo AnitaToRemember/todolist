@@ -15,10 +15,8 @@ function EditToDoForm ({editToDo, task}) {
         setValue("");
     };
 
-    // Render the edit ToDo form
     return (
         <form className="toDoForm" onSubmit={handleSubmit}>
-            {/* Input field for updating the task */}
             <input 
                 type="text" 
                 className="todo-input" 
@@ -26,7 +24,6 @@ function EditToDoForm ({editToDo, task}) {
                 placeholder="Update task" 
                 onChange={(e) => setValue(e.target.value)}
             />
-            {/* Button to submit the form and update the task */}
             <button type="submit" className="todo-btn">Update task</button>
         </form>
     );

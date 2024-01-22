@@ -2,7 +2,6 @@ import { featured } from "../data/Data";
 
 function FeaturedCard() {
 return (
-<>
     <section className="featured-card">
     {featured.map((item, index) => (
         <article className="card" key={index}>
@@ -12,7 +11,6 @@ return (
         </article>
     ))}
     </section>
-</>
 );
 }
 
