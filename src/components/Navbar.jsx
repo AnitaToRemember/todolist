@@ -17,7 +17,7 @@ function Navbar() {
   ];
 
   const handleNavLinkClick = () => {
-    setActive(false); // Close the hamburger menu when a link is clicked
+    setActive(false); 
   };
 
   return (
